@@ -4,7 +4,7 @@
 
 This project develops a machine learning application that predicts salary based on years of professional experience.
 
-The project covers the complete machine learning workflow, including:
+The project follows an end-to-end machine learning workflow:
 
 - Data loading
 - Data exploration
@@ -14,14 +14,17 @@ The project covers the complete machine learning workflow, including:
 - Model evaluation
 - Model serialization
 - Streamlit application development
-- Deployment
+- GitHub version control
+- Streamlit deployment
 
 ## Dataset
 
-The dataset contains two main variables:
+The dataset contains 200 records with the following variables:
 
 - Experience Years
 - Salary
+
+The goal is to predict salary based on years of professional experience.
 
 ## Machine Learning Models
 
@@ -42,17 +45,16 @@ The models were evaluated using:
 
 ## Application
 
-The Streamlit application allows users to enter their years of experience and receive a predicted salary.
+The Streamlit application allows users to enter their years of professional experience and receive a predicted salary.
 
 ## Project Structure
 
-ML_Project/
+ML-Salary-Prediction/
 - data/
   - salary_dataset.csv
 - model/
   - salary_model.pkl
 - notebooks/
-  - model_training.ipynb
 - app.py
 - requirements.txt
 - README.md
@@ -68,3 +70,7 @@ ML_Project/
 - Matplotlib
 - Streamlit
 - GitHub
+
+## Author
+
+Hoor124
